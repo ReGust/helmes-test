@@ -6,3 +6,5 @@
  - loads html into DOM object and filters option values which then are inserted into database
  
 3. page is available in  ``` <root>/sectors ``` route
+
+Database dump in in sectors_dump.sql
