@@ -1,0 +1,7 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+sectors_selectbox:
+  path: /sectors
+  controller: App\Controller\SectorsController::view

@@ -1,0 +1,16 @@
+{{ form_start(form) }}
+<div class="my-custom-class-for-errors">
+    {{ form_errors(form) }}
+</div>
+
+<div class="row">
+        {{ (errors) }}
+
+        <p>Please enter your name and pick the Sectors you are currently involved in.</p>
+
+        {{ form_row(form.name) }}
+        {{ form_row(form.sectors) }}
+        {{ form_row(form.agree_to_terms) }}
+
+</div>
+{{ form_end(form) }}
